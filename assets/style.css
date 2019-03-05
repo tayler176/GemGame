@@ -1,0 +1,62 @@
+.crystal-image {
+    width: 70px;
+    height: 70px;
+  }
+
+.instructions{
+    background-color: bisque;
+    width: 500px;
+    padding: 20px;
+    margin: 30px;
+    color: green;
+    font-weight: bold;
+}
+
+body{
+    background-image: url("https://i.imgur.com/JEdqgIF.jpg")
+}
+
+#number-to-guess{
+    background-color: green;
+    color: purple;
+    font-weight: bold;
+    padding: 30px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+h1{
+    background-color: brown;
+    color: white;
+    margin: 30px;
+    width: 300px;
+    padding: 20px;
+}
+
+.totals{
+    position: absolute;
+    left: 140px;
+    top: 640px;
+    width: 220px;
+    background-color: blueviolet;
+    color: antiquewhite;
+    padding-left: 50px;
+}
+
+#counter-text{
+    position: absolute ;
+    left: 430px;
+    top: 610px;
+    background-color: chartreuse;
+    height: 50px;
+    padding: 30px;
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#crystals{
+    position: absolute;
+    top: 750px;
+    left: 140px;
+}
