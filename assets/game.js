@@ -63,7 +63,7 @@ console.log("gem4: " + numberOptions4);
 
 
 
-// function gem1(){
+function gem1(){
 for (var i = 0; i < 1; i++) {
 var imageCrystal = $("<img>");
 imageCrystal.addClass("crystal-image");
@@ -72,7 +72,7 @@ imageCrystal.attr("data-crystalvalue", numberOptions[i]);
 $("#crystals").append(imageCrystal);
 console.log("gem1: " + numberOptions[i]);
 }
-
+}
 // function gem2() {
 for (var i = 0; i < 1; i++) {
 var imageCrystal2 = $("<img>");
